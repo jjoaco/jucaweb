@@ -570,8 +570,9 @@
   color: greenyellow;
   margin-top: 100px;
   margin-left: 30px;
+  margin-right:110px;
   text-align: center;
-  grid-column: 1/8; }
+  grid-column: 1/10; }
 
 @media only screen and (max-width: 1605px) {
   .primerContainerIndexAncho {
