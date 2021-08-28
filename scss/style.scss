@@ -1,0 +1,48 @@
+
+@import"fondo-body";
+@import "menunavegacion";
+@import "footer";
+// incio index
+@import "../scss/variables";
+@import "../scss/index/foto-principal-index";
+@import "../scss/index/primer-container-index";
+@import "../scss/index/primer_container_ancho";
+@import "../scss/index/tercer_container_ancho";
+@import "../scss/index/segundo-container-index";
+@import "../scss/index/tercero-container-index";
+@import "../scss/index/cuarto-container-index";
+// in index
+
+// inicio sobrejuca
+@import"../scss/sobrejuca/titulo-sobrejuca";
+@import"../scss/sobrejuca/biografia-sobrejuca";
+@import"../scss/sobrejuca/empresa-uno-sobrejuca.scss";
+@import"../scss/sobrejuca/empresa-dos-sobrejuca.scss";
+@import"../scss/sobrejuca/empresa-tres-sobrejuca.scss";
+@import"../scss/sobrejuca/empresa-cuatro-sobrejuca.scss";
+// fin sobrejuca
+
+// inicio vehiculos
+@import "../scss/vehiculos/titulo-susvehiculos";
+@import"../scss/vehiculos/fotos";
+// fin vehiculos
+
+// inicio videos
+@import"../scss/videos/_titulo-videos";
+@import "../scss/videos/videos";
+@import"../scss/videos/carrusel-videos";
+// fin videos
+
+// inicio contacto
+@import "../scss/contacto/seccion-contacto";
+// fin contacto
+
+// mediaqueries
+@import"../scss/mediaqueries/mediaqueries.scss";
+
+
+@import "../node_modules/bootstrap-5.1.0/scss/bootstrap";
+
+        
+        
+        

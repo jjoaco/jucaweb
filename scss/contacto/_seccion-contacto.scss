@@ -1,0 +1,34 @@
+.paginaContacto{
+    background-color: rgb(41, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-top: 50px;
+
+    .imagenContacto{
+        grid-column: 9/16;
+        grid-row: 1/1;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+        .alinearFormularioContacto{
+            grid-column: 2/8;
+            grid-row: 1/1;
+            margin-top: 70px;
+            color: greenyellow;
+            text-align: center;
+        }    
+}
+.paginaContactoTitulo{
+    font-family: 'Finger Paint', cursive;
+    color: greenyellow;
+    text-align: center;
+}   
+.formulario{
+    color: greenyellow;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: center;
+    grid-column: 1/8;
+}

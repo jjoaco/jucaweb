@@ -1,0 +1,23 @@
+.empresa1{
+    color:white;
+    background-color: rgb(41, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+
+    .imagenEmpresa1{
+        width: 100%;
+        grid-column: 9/17;
+        grid-row: 1/1;
+    
+    }
+    .parrafoEmpresa1{
+        text-align: center;
+        font-size: 23px;
+        grid-column:1/8 ;
+        grid-row: 1/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 60px;
+    }
+}

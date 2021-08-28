@@ -1,0 +1,15 @@
+.contenedor{
+    text-align: center;
+    
+    .contenedor2{
+        height: 110vh;
+        background-image: url(../img/inicio.jpg);
+        background-size: cover;
+    }
+    .navbar-nav.navbar-center {
+        font-size: 25px;
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }  
+    }

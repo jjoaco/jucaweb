@@ -1,0 +1,17 @@
+.biografiaSobreJuca{
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(41, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    .parrafoBiografiaSobreJuca{
+
+        text-align: center;
+        margin-top: 25px;
+        font-size: 20px;
+        grid-column:3/15 ;
+        grid-row: 1/1;
+    }
+}

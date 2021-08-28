@@ -1,0 +1,22 @@
+.empresas2{
+    color:black;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    .imagenEmpresas2{
+        width: 100%;
+        grid-column: 1/8;
+        grid-row: 1/1;
+    
+    }
+    .parrafoEmpresas2{
+        text-align: center;
+        font-size: 23px;
+        grid-column:9/17 ;
+        grid-row: 1/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 60px;
+    }
+}

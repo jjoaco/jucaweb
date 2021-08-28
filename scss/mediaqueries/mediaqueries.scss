@@ -1,0 +1,2285 @@
+// MEDIAQUERIES INDEX
+@media only screen and (max-width: 1600px){
+  .primerContainerIndexAncho{
+    display: none;
+    
+
+    .primerContainerIndexAncho__titulo{
+      display: none;
+
+        }
+            .PrimerContainerIndexAncho__imagen{
+              display: none;
+
+            }
+    
+                .PrimerContainerIndexAncho__parrafo{
+                     display: none;
+
+                }
+
+                    .PrimerContainerIndexAncho__link{
+                        display: none;
+
+                       }  
+                       .SegundoContainerIndexAncho__titulo{
+                        display: none;
+
+                      }
+                      .SegundoContainerIndexAncho__video{
+                        display: none;
+
+                      }
+            
+                        .SegundoContainerIndexAncho__Parrafo{
+                          display: none;
+                        }
+            
+                            .SegundoContainerIndexAncho__link{
+                              display: none;
+                                
+                               }
+                    }
+//  TERCER CONTAINER
+.terceroContainerIndexAncho{
+  display: none;
+}
+}
+@media only screen and (min-width: 1600px){
+  .primerContainerIndex{
+    display: none;
+  
+  }
+  
+  .segundoContainerIndex{
+    display: none;
+
+  }
+
+  .terceroContainerIndex{
+    display: none;
+  }
+  .tituloVideoTerceroContainerIndex{
+    display: none;
+  }
+
+  .cuartoContainerIndex{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) 
+{
+  
+  *{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    }
+
+// INICIO INDEX
+body{
+  background-image: url(https://cdn.shopify.com/s/files/1/0363/2519/5821/files/Recurso_20_1360x1360.png?v=1584319010);
+  background-position: top;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-color:#402676 ;
+}
+
+.fotoPrincipalIndex{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: repeat(1,1fr);
+height: 110vh;
+background-image: url(../img/inicio.jpg);
+background-size: cover;
+
+h1{
+    grid-column: 2/2;
+    font-family: 'Finger Paint', cursive;
+    font-size: 150px;
+    text-align: center;
+    color: $titulos-container;
+}
+h2 {
+  margin-top: 220px;
+  grid-column: 2/2;
+  grid-row: 1/1;
+  font-family: 'Finger Paint', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: $titulos-container;
+}
+}
+
+
+.primerContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .primerContainerIndex__titulo{
+      color:greenyellow;
+      grid-column: 1/4;
+      grid-row: 1/1;
+      margin-top: 25px;
+      font-size: 50px;
+      }
+          .PrimerContainerIndex__imagen{
+            width: 100%;
+            height: 700px;
+            object-fit: cover;
+            grid-column: 2/8;
+            grid-row: 1/1;
+            margin-top: 120px;
+          }
+  
+              .PrimerContainerIndex__parrafo{
+                  color: white;
+                  font-size: 16px;
+                  grid-column: 2/8;
+                  grid-row: 1/1;
+                  text-align:left;
+                  margin-top: 850px;
+              }
+
+                  .PrimerContainerIndex__link{
+                      display: flex;
+                      flex-direction: column-reverse;
+                      grid-column: 8/6; 
+                      grid-row: 2/2; 
+                      font-size: 40px;
+                      margin-top: 0px;
+                     }  
+}
+
+.segundoContainerIndex{
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: rgb(41, 39, 39);
+display: grid;
+grid-template-columns: repeat(15,1fr);
+grid-template-rows: repeat(1,1fr);
+
+  .SegundoContainerIndex__titulo{
+      grid-column: 1/10 ;
+      grid-row: 1/1;
+      color: greenyellow;
+      font-size: 50px;
+    }
+      .SegundoContainerIndex__video{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        grid-column: 2/15;
+        grid-row: 1/1;
+        margin-top: 60px;
+      }
+
+        .SegundoContainerIndex__Parrafo{
+            font-size: 16px;
+            color: white;
+            grid-column: 2/15;
+            grid-row: 1/1;
+            margin-top: 860px;
+        }
+
+            .SegundoContainerIndex__link{
+                grid-column: 8/2; 
+                grid-row: 2/2; 
+                font-size: 40px;
+                margin-top: 0px;
+                margin-bottom: 20px;
+               }
+}
+
+.tituloVideoTerceroContainerIndex{
+margin-bottom: 40px;
+text-align: center;
+color: greenyellow;
+font-size: 50px;
+}
+.terceroContainerIndex{
+display: grid;
+grid-template-columns: repeat(16,1fr);
+grid-template-rows: repeat(1,700px);
+
+
+.terceroContainerIndex__video{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    grid-column:1/17;
+    grid-row: 1/1;
+}
+}
+
+.cuartoContainerIndex{
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: rgb(41, 39, 39);
+display: grid;
+grid-template-columns: repeat(16,1fr);
+grid-template-rows: repeat(2,1fr);
+
+
+.cuartoContainerIndex__titulo{
+    color: greenyellow;
+    grid-column: 1/5;
+    grid-row: 1/1;
+    font-size: 50px;
+}
+
+.cuartoContainerIndex__imagen{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    grid-column: 2/16;
+    grid-row: 1/1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cuartoContainerIndex__formulario{
+    grid-column: 4/14;
+    grid-row: 2/2;
+    margin-top: 100px;
+    color: yellowgreen;
+    text-align: center;
+    font-size: 30px;
+}
+}
+
+// FIN INDEX
+// INICIO SOBRE JUCA
+
+// PARTE 1
+.biografiaSobreJuca{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .parrafoBiografiaSobreJuca{
+      text-align: left;
+      margin-top: 25px;
+      font-size: 16px;
+      grid-column:3/15 ;
+      grid-row: 1/1;
+  }
+}
+
+// INICIO VIDEOS
+
+.videos{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .videosTexto{
+      grid-column: 2/6;
+      grid-row: 1/1;
+      text-align: center;
+      font-size: 30px;
+      color: $titulos-container;
+      padding: 25px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      background-color: rgb(41, 39, 39);
+      border-radius: 20px;
+  }
+}
+
+// FIN VIDEOS
+
+// CONTACTO
+.paginaContacto{
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(1,1fr);
+  margin-top: 50px;
+
+  .imagenContacto{
+      grid-column: 9/16;
+      grid-row: 1/1;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+      height: 500px;
+  }
+}
+
+}
+
+@media only screen and (max-width: 900px) 
+{
+  *{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    }
+
+// INICIO INDEX
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0363/2519/5821/files/Recurso_20_1360x1360.png?v=1584319010);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color:#402676 ;
+}
+
+.fotoPrincipalIndex{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(1,1fr);
+  height: 110vh;
+  background-image: url(../img/inicio.jpg);
+  background-size: cover;
+  
+  h1{
+      grid-column: 2/2;
+      font-family: 'Finger Paint', cursive;
+      font-size: 150px;
+      text-align: center;
+      color: $titulos-container;
+  }
+  h2 {
+    margin-top: 220px;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    font-family: 'Finger Paint', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: $titulos-container;
+  }
+  }
+
+
+  .primerContainerIndex{
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(41, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(1,1fr);
+
+    .primerContainerIndex__titulo{
+        color:greenyellow;
+        grid-column: 1/4;
+        grid-row: 1/1;
+        margin-top: 25px;
+        font-size: 50px;
+        }
+            .PrimerContainerIndex__imagen{
+              width: 100%;
+              height: 700px;
+              object-fit: cover;
+              grid-column: 2/8;
+              grid-row: 1/1;
+              margin-top: 120px;
+            }
+    
+                .PrimerContainerIndex__parrafo{
+                    color: white;
+                    font-size: 16px;
+                    grid-column: 2/8;
+                    grid-row: 1/1;
+                    text-align: left;
+                    margin-top: 850px;
+                }
+
+                    .PrimerContainerIndex__link{
+                        display: flex;
+                        flex-direction: column-reverse;
+                        grid-column: 6/9; 
+                        grid-row: 2/2; 
+                        font-size: 40px;
+                        margin-top: 0px;
+                       }  
+}
+
+.segundoContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(15,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+    .SegundoContainerIndex__titulo{
+        grid-column: 1/10 ;
+        grid-row: 1/1;
+        color: greenyellow;
+        font-size: 50px;
+      }
+        .SegundoContainerIndex__video{
+          width: 100%;
+          height: 700px;
+          object-fit: cover;
+          grid-column: 2/15;
+          grid-row: 1/1;
+          margin-top: 60px;
+        }
+
+          .SegundoContainerIndex__Parrafo{
+              font-size: 16px;
+              color: white;
+              grid-column: 2/15;
+              grid-row: 1/1;
+              margin-top: 850px;
+          }
+
+              .SegundoContainerIndex__link{
+                  grid-column: 16/12; 
+                  grid-row: 2/2; 
+                  font-size: 40px;
+                  margin-top: 0px;
+                  margin-bottom: 20px;
+                 }
+}
+
+.tituloVideoTerceroContainerIndex{
+  margin-bottom: 40px;
+  text-align: center;
+  color: greenyellow;
+  font-size: 50px;
+}
+.terceroContainerIndex{
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(1,700px);
+
+
+  .terceroContainerIndex__video{
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+      grid-column:1/17;
+      grid-row: 1/1;
+  }
+}
+
+.cuartoContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(2,1fr);
+  
+
+  .cuartoContainerIndex__titulo{
+      color: greenyellow;
+      grid-column: 1/5;
+      grid-row: 1/1;
+      font-size: 50px;
+  }
+
+  .cuartoContainerIndex__imagen{
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+      grid-column: 2/16;
+      grid-row: 1/1;
+      margin-top: 100px;
+      margin-bottom: 50px;
+  }
+
+  .cuartoContainerIndex__formulario{
+      grid-column: 4/14;
+      grid-row: 2/2;
+      margin-top: 100px;
+      color: yellowgreen;
+      text-align: center;
+      font-size: 30px;
+  }
+}
+
+// FIN INDEX
+
+// INICIO SOBRE JUCA
+
+// PARTE 1
+.biografiaSobreJuca{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .parrafoBiografiaSobreJuca{
+      text-align: left;
+      margin-top: 25px;
+      font-size: 16px;
+      grid-column:3/15 ;
+      grid-row: 1/1;
+  }
+}
+
+// PARTE 2
+
+.empresa1{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresa1{
+      object-fit: cover;
+      width: 100%;
+      grid-column: 9/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresa1{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/8;
+      grid-row: 1/1;
+      margin-left: 30px;
+  }
+}
+
+// PARTE 3
+
+.empresas2{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas2{
+      object-fit: cover;
+      width: 100%;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas2{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 700px;
+      margin-left: 50px;
+  }
+}
+
+// PARTE 4
+
+.empresas3{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresas3{
+      object-fit: cover;
+      width: 100%;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas3{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 600px;
+      margin-right: 50px;
+  }
+}
+
+// INICO SUS VEHICULOS
+
+.fotos{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(20,1fr);
+  grid-template-rows: repeat(5,1fr);
+
+  .foto1{
+      border:$bordes-fotos;
+      margin-top: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/10;
+      grid-row: 1/1;
+      }
+      .foto2{
+        border:$bordes-fotos;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 10px;
+        grid-column: 10/21;
+        grid-row: 1/1;
+    }
+    .foto3{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 10px;
+      grid-column: 1/10;
+      grid-row: 2/2;
+  }
+    .foto4{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 10/21;
+      grid-row: 2/2;
+      margin-bottom: 10px;
+   }
+
+     .foto5{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/10;
+      grid-row: 3/3;
+      margin-bottom: 10px;
+     }
+
+       .foto6{
+          border:$bordes-fotos;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          grid-column: 10/21;
+          grid-row: 3/3;
+          margin-bottom: 10px;
+       }
+
+          .foto7{
+           border:$bordes-fotos;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           grid-column: 1/10;
+           grid-row: 4/4;
+          }
+
+             .foto8{
+               border:$bordes-fotos;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               grid-column: 10/21;
+               grid-row: 4/4;
+             }
+
+                .foto9{
+                   border:$bordes-fotos;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   grid-column: 1/10;
+                   grid-row: 5/5;
+                }
+
+                   .foto10{
+                       border:$bordes-fotos;
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover;
+                       grid-column: 10/21;
+                       grid-row: 5/5;
+                   
+                   }
+    }
+// FIN DE SUS VEHICULOS   
+
+// INICIO VIDEOS
+
+.videos{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .videosTexto{
+      grid-column: 1/7;
+      grid-row: 1/1;
+      text-align: center;
+      font-size: 25px;
+      color: $titulos-container;
+      padding: 25px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      background-color: rgb(41, 39, 39);
+      border-radius: 0px;
+  }
+}
+
+// FIN VIDEOS
+
+
+// INICIO CONTACTO
+
+.paginaContacto{
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(2,1fr);
+
+  .paginaContactoTexto{
+      font-size: 35px;
+      font-family: 'Finger Paint', cursive;
+      color: greenyellow;
+      margin-left: 50px;
+      grid-column: 8/8;
+      grid-row: 1/1;
+  }
+
+  .imagenContacto{
+      grid-column: 1/17;
+      grid-row: 1/1;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      width: 100%;
+      height: 600px;
+  }
+  
+      .formulario{
+          grid-column: 4/14;
+          grid-row: 2/2;
+          margin-top: 40px;
+          color: greenyellow;
+          text-align: center;
+      }    
+}
+
+//FIN CONTACTO 
+
+}
+
+
+
+@media only screen and (max-width: 768px) 
+{
+  *{
+    margin: 0;
+    padding: 0;
+    }
+
+
+// iNICIO INDEX
+
+body{
+  background-image: url(https://cdn.shopify.com/s/files/1/0363/2519/5821/files/Recurso_20_1360x1360.png?v=1584319010);
+  background-position: top;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-color:#402676 ;
+}
+
+.fotoPrincipalIndex{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: repeat(1,1fr);
+height: 110vh;
+background-image: url(../img/inicio.jpg);
+background-size: cover;
+
+h1{
+    grid-column: 3/3;
+    font-family: 'Finger Paint', cursive;
+    font-size: 130px;
+    text-align: center;
+    color: $titulos-container;
+}
+h2 {
+  margin-top: 220px;
+  grid-column: 3/3;
+  grid-row: 1/1;
+  font-family: 'Finger Paint', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: $titulos-container;
+}
+}
+
+.primerContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .primerContainerIndex__titulo{
+      color:greenyellow;
+      grid-column: 1/6 ;
+      grid-row: 1/1;
+      margin-top: 25px;
+      font-size: 35px;
+      }
+          .PrimerContainerIndex__imagen{
+          width: 100%;
+          height: 500px;
+          object-fit: cover;
+          grid-column: 1/8;
+          grid-row: 1/1;
+          margin-top: 110px;
+          }
+  
+              .PrimerContainerIndex__parrafo{
+                  color: white;
+                  font-size: 16px;
+                  grid-column: 1/8;
+                  grid-row: 1/1;
+                  text-align: left;
+                  margin-top: 640px;
+              }
+
+                  .PrimerContainerIndex__link{
+                      margin-top: 0px;
+                      grid-column: 4/8; 
+                      grid-row: 2/2;
+                      font-size: 25px; 
+                      
+                     }  
+}
+
+
+.segundoContainerIndex{
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: rgb(41, 39, 39);
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(1,1fr);
+
+  .SegundoContainerIndex__titulo{
+      grid-column: 1/4;
+      grid-row: 1/1;
+      color: greenyellow;
+      margin-top: 25px;
+    }
+      .SegundoContainerIndex__video{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        grid-column: 1/8;
+        grid-row: 1/1;
+        margin-top: 90px;
+      }
+
+        .SegundoContainerIndex__Parrafo{
+            text-align: left;
+            font-size: 16px;
+            color: white;
+            grid-column: 1/8;
+            grid-row: 1/1;
+            margin-top: 900px;
+        }
+
+            .SegundoContainerIndex__link{
+                 margin-top: 0px;
+                 grid-column: 6/8;
+                 grid-row: 2/2;
+                 font-size: 25px;
+               }
+}
+
+.tituloVideoTerceroContainerIndex{
+margin-bottom: 40px;
+text-align: center;
+color: greenyellow;
+}
+
+.terceroContainerIndex{
+display: grid;
+grid-template-columns: repeat(16,1fr);
+grid-template-rows: repeat(1,600px);
+
+
+.terceroContainerIndex__video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column:1/17;
+    grid-row: 1/1;
+}
+}
+
+.cuartoContainerIndex{
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: rgb(41, 39, 39);
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(1,1fr);
+
+
+.cuartoContainerIndex__titulo{
+    color: greenyellow;
+    grid-column: 3/4;
+    grid-row: 1/1;
+}
+
+.cuartoContainerIndex__imagen{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    grid-column: 1/8;
+    grid-row: 1/1;
+}
+
+.cuartoContainerIndex__formulario{
+    font-size: 25px;
+    grid-column: 3/6;
+    grid-row: 1/1;
+    margin-top: 700px;
+    color: yellowgreen;
+    text-align: center;
+}
+}
+
+// FIN INDEX
+
+// INICIO SOBRE JUCA
+
+// PARTE 1
+.biografiaSobreJuca{
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .parrafoBiografiaSobreJuca{
+      text-align: left;
+      margin-top: 25px;
+      font-size: 16px;
+      grid-column:3/15 ;
+      grid-row: 1/1;
+  }
+}
+
+// PARTE 2
+
+.empresa1{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresa1{
+      object-fit: cover;
+      width: 100%;
+      height: 480px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresa1{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 500px;
+      margin-left: 30px;
+  }
+}
+
+// PARTE 3
+
+.empresas2{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas2{
+      object-fit: cover;
+      width: 100%;
+      height: 510px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas2{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 530px;
+      margin-left: 50px;
+  }
+}
+
+// PARTE 4
+
+.empresas3{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresas3{
+      object-fit: cover;
+      width: 100%;
+      height: 390px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas3{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 400px;
+      margin-right: 50px;
+  }
+}
+
+// PARTE 5
+
+.empresas4{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas4{
+      object-fit: cover;
+      width: 100%;
+      height: 520px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas4{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 530px;
+      margin-right: 50px;
+  }
+}
+
+// INICO SUS VEHICULOS
+
+.fotos{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(20,1fr);
+  grid-template-rows: repeat(10,1fr);
+
+  .foto1{
+      border:$bordes-fotos;
+      margin-top: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 1/1;
+      }
+      .foto2{
+        border:$bordes-fotos;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 10px;
+        grid-column: 1/21;
+        grid-row: 2/2;
+    }
+    .foto3{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 10px;
+      grid-column: 1/21;
+      grid-row: 3/3;
+  }
+    .foto4{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 4/4;
+      margin-bottom: 10px;
+   }
+
+     .foto5{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 5/5;
+      margin-bottom: 10px;
+     }
+
+       .foto6{
+          border:$bordes-fotos;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          grid-column: 1/21;
+          grid-row: 6/6;
+          margin-bottom: 10px;
+       }
+
+          .foto7{
+           border:$bordes-fotos;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           grid-column: 1/21;
+           grid-row: 7/7;
+          }
+
+             .foto8{
+               border:$bordes-fotos;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               grid-column: 1/21;
+               grid-row: 8/8;
+             }
+
+                .foto9{
+                   border:$bordes-fotos;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   grid-column: 1/21;
+                   grid-row: 9/9;
+                }
+
+                   .foto10{
+                       border:$bordes-fotos;
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover;
+                       grid-column: 1/21;
+                       grid-row: 10/10;
+                   
+                   }
+    }
+// FIN DE SUS VEHICULOS   
+
+// INICIO VIDEOS
+
+.videos{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .videosTexto{
+      grid-column: 1/7;
+      grid-row: 1/1;
+      text-align: center;
+      font-size: 20px;
+      color: $titulos-container;
+      padding: 25px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      background-color: rgb(41, 39, 39);
+      border-radius: 0px;
+  }
+}
+
+// FIN VIDEOS
+
+// INICIO CONTACTO
+
+.paginaContacto{
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .paginaContactoTexto{
+      font-family: 'Finger Paint', cursive;
+      color: greenyellow;
+      margin-left: 0px;
+      grid-column: 8/8;
+      grid-row: 1/1;
+  }
+
+  .imagenContacto{
+      grid-column: 1/17;
+      grid-row: 1/1;
+      margin-top: 50px;
+      margin-bottom: 0px;
+  }
+  
+      .formulario{
+          grid-column: 2/15;
+          grid-row: 1/1;
+          margin-top: 680px;
+          color: greenyellow;
+          text-align: center;
+      }    
+}
+
+//FIN CONTACTO 
+
+}
+
+
+@media only screen and (max-width: 480px) 
+{
+  *{
+    margin: 0;
+    padding: 0;
+    }
+
+// iNICIO INDEX
+
+body{
+  background-image: url(https://cdn.shopify.com/s/files/1/0363/2519/5821/files/Recurso_20_1360x1360.png?v=1584319010);
+  background-position: top;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-color:#402676 ;
+}
+
+.fotoPrincipalIndex{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: repeat(1,1fr);
+height: 110vh;
+background-image: url(../img/inicio.jpg);
+background-size: cover;
+
+h1{
+    grid-column: 3/3;
+    font-family: 'Finger Paint', cursive;
+    font-size: 90px;
+    text-align: center;
+    color: $titulos-container;
+}
+h2 {
+  margin-top: 190px;
+  grid-column: 3/3;
+  grid-row: 1/1;
+  font-family: 'Finger Paint', cursive;
+  font-size: 75px;
+  text-align: center;
+  color: $titulos-container;
+}
+}
+
+.primerContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .primerContainerIndex__titulo{
+      color:greenyellow;
+      grid-column: 1/6 ;
+      grid-row: 1/1;
+      margin-top: 25px;
+      font-size: 35px;
+      }
+          .PrimerContainerIndex__imagen{
+          width: 100%;
+          height: 500px;
+          object-fit: cover;
+          grid-column: 1/8;
+          grid-row: 1/1;
+          margin-top: 110px;
+          }
+  
+              .PrimerContainerIndex__parrafo{
+                  color: white;
+                  font-size: 16px;
+                  grid-column: 1/8;
+                  grid-row: 1/1;
+                  text-align: left;
+                  margin-top: 640px;
+                  margin-right: 20px;
+                    margin-left: 20px;
+              }
+
+                  .PrimerContainerIndex__link{
+                      margin-top: 0px;
+                      grid-column: 4/8; 
+                      grid-row: 2/2;
+                      font-size: 25px; 
+                      
+                     }  
+}
+
+
+.segundoContainerIndex{
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: rgb(41, 39, 39);
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(1,1fr);
+
+  .SegundoContainerIndex__titulo{
+      grid-column: 2/2;
+      grid-row: 1/1;
+      color: greenyellow;
+      margin-top: 25px;
+    }
+      .SegundoContainerIndex__video{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        grid-column: 1/8;
+        grid-row: 1/1;
+        margin-top: 90px;
+      }
+
+        .SegundoContainerIndex__Parrafo{
+            text-align: left;
+            font-size: 16px;
+            color: white;
+            grid-column: 1/8;
+            grid-row: 1/1;
+            margin-top: 900px;
+            margin-right: 20px;
+                    margin-left: 20px;
+        }
+
+            .SegundoContainerIndex__link{
+                color: white;
+                grid-column: 2/3; 
+                grid-row: 2/2; 
+                margin-top: 0px;
+                margin-bottom: 20px;
+                font-size: 25px;
+               }
+}
+
+.tituloVideoTerceroContainerIndex{
+margin-bottom: 40px;
+text-align: center;
+color: greenyellow;
+}
+
+.terceroContainerIndex{
+display: grid;
+grid-template-columns: repeat(16,1fr);
+grid-template-rows: repeat(1,600px);
+
+
+.terceroContainerIndex__video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column:1/17;
+    grid-row: 1/1;
+}
+}
+
+.cuartoContainerIndex{
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: rgb(41, 39, 39);
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(1,1fr);
+
+
+.cuartoContainerIndex__titulo{
+    color: greenyellow;
+    grid-column: 3/4;
+    grid-row: 1/1;
+}
+
+.cuartoContainerIndex__imagen{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    grid-column: 1/8;
+    grid-row: 1/1;
+}
+
+.cuartoContainerIndex__formulario{
+    font-size: 25px;
+    grid-column: 3/6;
+    grid-row: 1/1;
+    margin-top: 700px;
+    color: yellowgreen;
+    text-align: center;
+}
+}
+
+// FIN INDEX
+
+
+
+// INICIO SOBRE JUCA
+
+// PARTE 1
+.biografiaSobreJuca{
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .parrafoBiografiaSobreJuca{
+      text-align: left;
+      margin-top: 25px;
+      font-size: 16px;
+      grid-column:3/15 ;
+      grid-row: 1/1;
+  }
+}
+
+// PARTE 2
+
+.empresa1{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresa1{
+      object-fit: cover;
+      width: 100%;
+      height: 390px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresa1{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 400px;
+      margin-left: 30px;
+  }
+}
+
+// PARTE 3
+
+.empresas2{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas2{
+      object-fit: cover;
+      width: 100%;
+      height: 440px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas2{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 450px;
+      margin-left: 50px;
+  }
+}
+
+// PARTE 4
+
+.empresas3{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresas3{
+      object-fit: cover;
+      width: 100%;
+      height: 390px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas3{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 400px;
+      margin-right: 50px;
+  }
+}
+
+// PARTE 5
+
+.empresas4{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas4{
+      object-fit: cover;
+      width: 100%;
+      height: 340px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas4{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 350px;
+      margin-right: 50px;
+  }
+}
+
+
+// INICO SUS VEHICULOS
+
+.fotos{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(20,1fr);
+  grid-template-rows: repeat(10,1fr);
+
+  .foto1{
+      border:$bordes-fotos;
+      margin-top: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 1/1;
+      }
+      .foto2{
+        border:$bordes-fotos;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 10px;
+        grid-column: 1/21;
+        grid-row: 2/2;
+    }
+    .foto3{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 10px;
+      grid-column: 1/21;
+      grid-row: 3/3;
+  }
+    .foto4{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 4/4;
+      margin-bottom: 10px;
+   }
+
+     .foto5{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 5/5;
+      margin-bottom: 10px;
+     }
+
+       .foto6{
+          border:$bordes-fotos;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          grid-column: 1/21;
+          grid-row: 6/6;
+          margin-bottom: 10px;
+       }
+
+          .foto7{
+           border:$bordes-fotos;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           grid-column: 1/21;
+           grid-row: 7/7;
+          }
+
+             .foto8{
+               border:$bordes-fotos;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               grid-column: 1/21;
+               grid-row: 8/8;
+             }
+
+                .foto9{
+                   border:$bordes-fotos;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   grid-column: 1/21;
+                   grid-row: 9/9;
+                }
+
+                   .foto10{
+                       border:$bordes-fotos;
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover;
+                       grid-column: 1/21;
+                       grid-row: 10/10;
+                   
+                   }
+    }
+// FIN DE SUS VEHICULOS   
+
+// INICIO VIDEOS
+
+.videos{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .videosTexto{
+      grid-column: 1/7;
+      grid-row: 1/1;
+      text-align: left;
+      font-size: 16px;
+      color: $titulos-container;
+      padding: 25px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      background-color: rgb(41, 39, 39);
+      border-radius: 0px;
+  }
+}
+
+// FIN VIDEOS
+
+// INICIO CONTACTO
+
+.paginaContacto{
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .paginaContactoTexto{
+      font-family: 'Finger Paint', cursive;
+      color: greenyellow;
+      margin-left: 0px;
+      grid-column: 8/8;
+      grid-row: 1/1;
+  }
+
+  .imagenContacto{
+      grid-column: 1/17;
+      grid-row: 1/1;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      width: 100%;
+      height: 400px;
+  }
+  
+      .formulario{
+          grid-column: 4/14;
+          grid-row: 1/1;
+          margin-top: 480px;
+          color: greenyellow;
+          text-align: center;
+      }    
+}
+
+//FIN CONTACTO 
+
+}
+
+
+@media only screen and (max-width: 360px) 
+{
+  *{
+    margin: 0;
+    padding: 0;
+    }
+
+// iNICIO INDEX
+
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0363/2519/5821/files/Recurso_20_1360x1360.png?v=1584319010);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color:#402676 ;
+}
+
+.fotoPrincipalIndex{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(1,1fr);
+  height: 110vh;
+  background-image: url(../img/inicio.jpg);
+  background-size: cover;
+
+  h1{
+      grid-column: 3/3;
+      font-family: 'Finger Paint', cursive;
+      font-size: 90px;
+      margin-top: 50px;
+      text-align: center;
+      color: $titulos-container;
+  }
+  h2 {
+    margin-top: 160px;
+    grid-column: 3/3;
+    grid-row: 1/1;
+    font-family: 'Finger Paint', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: $titulos-container;
+}
+}
+
+  .primerContainerIndex{
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(41, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(1,1fr);
+
+    .primerContainerIndex__titulo{
+        color:greenyellow;
+        grid-column: 1/6 ;
+        grid-row: 1/1;
+        margin-top: 25px;
+        font-size: 35px;
+        }
+            .PrimerContainerIndex__imagen{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            grid-column: 1/8;
+            grid-row: 1/1;
+            margin-top: 110px;
+            }
+    
+                .PrimerContainerIndex__parrafo{
+                    color: white;
+                    font-size: 16px;
+                    grid-column: 1/8;
+                    grid-row: 1/1;
+                    text-align: left;
+                    margin-top: 640px;
+                    margin-right: 20px;
+                    margin-left: 20px;
+                }
+
+                    .PrimerContainerIndex__link{
+                        margin-top: 0px;
+                        grid-column: 4/8; 
+                        grid-row: 2/2;
+                        font-size: 20px; 
+                        
+                       }  
+}
+
+
+.segundoContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+    .SegundoContainerIndex__titulo{
+        grid-column: 2/2;
+        grid-row: 1/1;
+        color: greenyellow;
+        margin-top: 25px;
+      }
+        .SegundoContainerIndex__video{
+          width: 100%;
+          height: 700px;
+          object-fit: cover;
+          grid-column: 1/8;
+          grid-row: 1/1;
+          margin-top: 80px;
+        }
+
+          .SegundoContainerIndex__Parrafo{
+              text-align: left;
+              font-size: 16px;
+              color: white;
+              grid-column: 1/8;
+              grid-row: 1/1;
+              margin-top: 900px;
+              margin-right: 20px;
+              margin-left: 20px;
+          }
+
+              .SegundoContainerIndex__link{
+                  grid-column: 2/3; 
+                  grid-row: 2/2; 
+                  margin-top: 0px;
+                  margin-bottom: 20px;
+                  font-size: 25px;
+                 }
+}
+
+.tituloVideoTerceroContainerIndex{
+  margin-bottom: 40px;
+  text-align: center;
+  color: greenyellow;
+}
+
+.terceroContainerIndex{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,700px);
+
+
+  .terceroContainerIndex__video{
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+      grid-column:1/17;
+      grid-row: 1/1;
+  }
+}
+
+.cuartoContainerIndex{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: repeat(1,1fr);
+  
+
+  .cuartoContainerIndex__titulo{
+      color: greenyellow;
+      grid-column: 3/4;
+      grid-row: 1/1;
+  }
+
+  .cuartoContainerIndex__imagen{
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      grid-column: 1/8;
+      grid-row: 1/1;
+  }
+
+  .cuartoContainerIndex__formulario{
+      font-size: 25px;
+      grid-column: 3/6;
+      grid-row: 1/1;
+      margin-top: 700px;
+      color: yellowgreen;
+      text-align: center;
+  }
+}
+
+// FIN INDEX
+
+// INICIO SOBRE JUCA
+
+// PARTE 1
+.biografiaSobreJuca{
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .parrafoBiografiaSobreJuca{
+      text-align: left;
+      margin-top: 25px;
+      font-size: 16px;
+      grid-column:3/15 ;
+      grid-row: 1/1;
+  }
+}
+
+// PARTE 2
+
+.empresa1{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresa1{
+      object-fit: cover;
+      width: 100%;
+      height: 290px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresa1{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 300px;
+      margin-left: 30px;
+  }
+}
+
+// PARTE 3
+
+.empresas2{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas2{
+      object-fit: cover;
+      width: 100%;
+      height: 300px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas2{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 310px;
+      margin-left: 50px;
+  }
+}
+
+// PARTE 4
+
+.empresas3{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:white;
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+
+  .imagenEmpresas3{
+      object-fit: cover;
+      width: 100%;
+      height: 260px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas3{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17;
+      grid-row: 1/1;
+      margin-top: 270px;
+      margin-right: 50px;
+  }
+}
+
+// PARTE 5
+
+.empresas4{
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color:black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  
+  .imagenEmpresas4{
+      object-fit: cover;
+      width: 100%;
+      height: 225px;
+      grid-column: 1/17;
+      grid-row: 1/1;
+      border-radius: 0px;
+  
+  }
+  .parrafoEmpresas4{
+      text-align: left;
+      font-size: 16px;
+      grid-column:1/17 ;
+      grid-row: 1/1;
+      margin-top: 230px;
+      margin-right: 50px;
+  }
+}
+// FIN SOBRE JUCA
+
+
+// INICIO SUS VEHICULOS
+
+.fotos{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(20,1fr);
+  grid-template-rows: repeat(10,1fr);
+
+  .foto1{
+      border:$bordes-fotos;
+      margin-top: 10px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 1/1;
+      }
+      .foto2{
+        border:$bordes-fotos;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: 10px;
+        grid-column: 1/21;
+        grid-row: 2/2;
+    }
+    .foto3{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-top: 10px;
+      grid-column: 1/21;
+      grid-row: 3/3;
+  }
+    .foto4{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 4/4;
+      margin-bottom: 10px;
+   }
+
+     .foto5{
+      border:$bordes-fotos;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      grid-column: 1/21;
+      grid-row: 5/5;
+      margin-bottom: 10px;
+     }
+
+       .foto6{
+          border:$bordes-fotos;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          grid-column: 1/21;
+          grid-row: 6/6;
+          margin-bottom: 10px;
+       }
+
+          .foto7{
+           border:$bordes-fotos;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           grid-column: 1/21;
+           grid-row: 7/7;
+          }
+
+             .foto8{
+               border:$bordes-fotos;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               grid-column: 1/21;
+               grid-row: 8/8;
+             }
+
+                .foto9{
+                   border:$bordes-fotos;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   grid-column: 1/21;
+                   grid-row: 9/9;
+                }
+
+                   .foto10{
+                       border:$bordes-fotos;
+                       width: 100%;
+                       height: 100%;
+                       object-fit: cover;
+                       grid-column: 1/21;
+                       grid-row: 10/10;
+                   
+                   }
+    }
+// FIN DE SUS VEHICULOS   
+
+// INICIO VIDEOS
+
+.videos{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .videosTexto{
+      grid-column: 1/7;
+      grid-row: 1/1;
+      text-align: center;
+      font-size: 16px;
+      color: $titulos-container;
+      padding: 25px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      background-color: rgb(41, 39, 39);
+      border-radius: 0px;
+  }
+}
+
+// FIN VIDEOS
+
+// INICIO CONTACTO
+
+.paginaContacto{
+  background-color: rgb(41, 39, 39);
+  display: grid;
+  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(1,1fr);
+
+  .paginaContactoTexto{
+      font-family: 'Finger Paint', cursive;
+      color: greenyellow;
+      margin-left: 0px;
+      grid-column: 8/8;
+      grid-row: 1/1;
+      font-size: 50px;
+  }
+
+  .imagenContacto{
+      grid-column: 1/17;
+      grid-row: 1/1;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      width: 100%;
+      height: 300px;
+  }
+  
+      .formulario{
+          grid-column: 2/16;
+          grid-row: 1/1;
+          margin-top: 380px;
+          color: greenyellow;
+          text-align: center;
+      }    
+}
+
+//FIN CONTACTO 
+
+
+}
+
+
+
+
+// FIN MEDIAQUERIES

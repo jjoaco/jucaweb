@@ -1,0 +1,17 @@
+.carrusel{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.alinearCarrusel{
+    object-fit: cover;
+    grid-column: 1/7;
+}
+
+.video1Seccion{
+    width: 1270px;
+    height: 720px;
+}
+
+
