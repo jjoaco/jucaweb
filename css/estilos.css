@@ -216,8 +216,8 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(1, 700px);
   border-radius: 0px;
-  margin-left: 25px;
-  margin-right: 25px; }
+  margin-left: 0px;
+  margin-right: 0px; }
   .terceroContainerIndexAncho .terceroContainerIndexAncho__video {
     width: 100%;
     height: 480px;
