@@ -100,7 +100,7 @@
     color: greenyellow; }
 
 .primerContainerIndex {
-  border-radius: 20px;
+  border-radius: 0px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #292727;
@@ -120,7 +120,7 @@
     margin-top: 25px; }
   .primerContainerIndex .PrimerContainerIndex__parrafo {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     grid-column: 3/10;
     grid-row: 1/1;
     display: flex;
@@ -135,7 +135,7 @@
     margin-bottom: 20px; }
 
 .primerContainerIndexAncho {
-  border-radius: 20px;
+  border-radius: 0px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #292727;
@@ -156,7 +156,7 @@
     margin-top: 25px; }
   .primerContainerIndexAncho .PrimerContainerIndexAncho__parrafo {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     grid-column: 1/5;
     margin-left: 20px;
     margin-right: 20px;
@@ -187,7 +187,7 @@
     margin-top: 12px;
     margin-left: 45px; }
   .primerContainerIndexAncho .SegundoContainerIndexAncho__Parrafo {
-    font-size: 22px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
