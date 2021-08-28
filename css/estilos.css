@@ -1,14 +1,18 @@
 * {
   margin: 0;
   padding: 0; }
+/* INICIO INDEX */
 
+/* FONDO */
 .fondo {
   background-image: url(../img/fondoBody.png);
   background-position: top;
   background-repeat: repeat-y;
   background-size: 100%;
   background-color: #402676; }
+/* FIN FONDO */
 
+/* IMAGEN PRINCIPAL */
 .contenedor {
   text-align: center; }
   .contenedor .contenedor2 {
@@ -20,7 +24,9 @@
     position: absolute;
     left: 50%;
     transform: translatex(-50%); }
+/* FIN IMAGEN PRINCIPAL */
 
+/* FOOTER */
 .footer-basic {
   padding: 40px 0;
   background-color: #292727;
@@ -74,7 +80,9 @@
 
 .redesFooter {
   margin-bottom: 15px; }
+/* FIN FOOTER */
 
+/* IMAGEN INICIO */
 .fotoPrincipalIndex {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -98,7 +106,9 @@
     font-size: 100px;
     text-align: center;
     color: greenyellow; }
+/* FIN IMAGEN INICIO */
 
+/* PRIMERA SECCION INDEX */
 .primerContainerIndex {
   border-radius: 0px;
   margin-left: 0px;
@@ -133,7 +143,9 @@
     grid-column: 9/7;
     grid-row: 2/1;
     margin-bottom: 20px; }
+/* FIN PRIMERA SECCION INDEX */
 
+/* PRIMERA SECCION INDEX PANTALLAS MAS GRANDES */
 .primerContainerIndexAncho {
   border-radius: 0px;
   margin-left: 0px;
@@ -201,7 +213,9 @@
     grid-column: 10/14;
     grid-row: 1/1;
     margin-top: 445px; }
+/* FIN PRIMERA SECCION INDEX PANTALLAS MAS GRANDES */
 
+/* SEGUNDA SECCION PANTALLAS MAS GRANDES */
 .tituloVideoTerceroContainerIndexAncho {
   margin-bottom: 40px;
   grid-column: 4/15;
@@ -239,7 +253,9 @@
     text-align: center;
     font-family: 'Finger Paint', cursive;
     color: greenyellow; }
+/* FIN SEGUNDA SECCION PANTALLAS MAS GRANDES */
 
+/* SEGUNDA SECCION INDEX */
 .segundoContainerIndex {
   border-radius: 20px;
   margin-left: 0px;
@@ -276,7 +292,9 @@
     grid-column: 16/14;
     grid-row: 2/2;
     margin-bottom: 50px; }
+/* FIN SEGUNDA SECCION INDEX */
 
+/* TERCERA SECCION INDEX */
 .tituloVideoTerceroContainerIndex {
   margin-bottom: 40px;
   text-align: center;
@@ -296,7 +314,9 @@
     object-fit: cover;
     grid-column: 1/7;
     grid-row: 1/1; }
+/* FIN TERCERA SECCION INDEX */
 
+/* CUARTA SECCION INDEX */
 .cuartoContainerIndex {
   border-radius: 20px;
   margin-left: 0px;
@@ -319,7 +339,12 @@
     margin-top: 70px;
     color: yellowgreen;
     text-align: center; }
+/* FIN CUARTA SECCION INDEX */
+/* FIN INDEX */
 
+/* INICIO SOBRE JUCA */
+
+/* TITULO E IMAGEN SOBREJUCA */
 .tituloSobreJuca {
   font-family: 'Finger Paint', cursive;
   font-size: 45px;
@@ -343,7 +368,9 @@
     font-size: 20px;
     grid-column: 3/15;
     grid-row: 1/1; }
+/* FIN TITULO E IMAGEN SOBREJUCA */
 
+/* EMPRESA 1 */
 .empresa1 {
   color: white;
   background-color: #292727;
@@ -362,7 +389,9 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 60px; }
+/* FIN EMPRESA 1 */
 
+/* EMPRESA 2 */
 .empresas2 {
   color: black;
   background-color: whitesmoke;
@@ -381,7 +410,9 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 60px; }
+/* FIN EMPRESA 2 */
 
+/* EMPRESA 3 */
 .empresas3 {
   color: white;
   background-color: #292727;
@@ -400,7 +431,9 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 60px; }
+/* FIN EMPRESA 3 */
 
+/* EMPRESA 4 */
 .empresas4 {
   color: black;
   background-color: whitesmoke;
@@ -419,13 +452,20 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 60px; }
+/* FIN EMPRESA 4 */
+/* FIN SOBREJUCA */
 
+/* INICIO SUS VEHICULOS */
+
+/* TITULO SUS VEHICULOS */
 .tituloSusVehiculos {
   font-family: 'Finger Paint', cursive;
   font-size: 45px;
   color: greenyellow;
   text-align: center; }
+/* FIN TITULOS SUS VEHICULOS */
 
+/* GALERIA DE FOTOS */
 .fotos {
   text-align: center;
   display: grid;
@@ -507,7 +547,12 @@
     object-fit: cover;
     grid-column: 10/20;
     grid-row: 2/2; }
+/* FIN GALERIA DE FOTOS */
+/* FIN SUS VEHICULOS */
 
+/* SECCION VIDEOS */
+
+/* TITULO Y TEXTO VIDEOS */
 .tituloVideos {
   font-family: 'Finger Paint', cursive;
   font-size: 45px;
@@ -529,7 +574,9 @@
     margin-bottom: 80px;
     background-color: #292727;
     border-radius: 20px; }
+/* FIN TITULO Y TEXTO VIDEOS */
 
+/* CARRUSEL */
 .carrusel {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -542,7 +589,10 @@
 .video1Seccion {
   width: 1270px;
   height: 720px; }
+/* FIN CARRUSEL */
+/* FIN SECCION VIDEOS */
 
+/* SECCION CONTACTO */
 .paginaContacto {
   background-color: #292727;
   display: grid;
@@ -573,7 +623,9 @@
   margin-right:110px;
   text-align: center;
   grid-column: 1/10; }
+/* FIN SECCION CONTACTO */
 
+/* INICIO MEDIAQUERIES RESPONSIVE */
 @media only screen and (max-width: 1605px) {
   .primerContainerIndexAncho {
     display: none; }
@@ -2217,7 +2269,9 @@
       margin-top: 380px;
       color: greenyellow;
       text-align: center; } }
+/* FIN MEDIAQUERIES RESPONSIVE */
 
+/* BOOTSTRAP */
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10022,3 +10076,4 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+/* FIN BOOTSRAP */
