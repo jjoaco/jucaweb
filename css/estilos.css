@@ -572,7 +572,7 @@
   text-align: center;
   grid-column: 1/8; }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1605px) {
   .primerContainerIndexAncho {
     display: none; }
     .primerContainerIndexAncho .primerContainerIndexAncho__titulo {
@@ -594,7 +594,7 @@
   .terceroContainerIndexAncho {
     display: none; } }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1605px) {
   .primerContainerIndex {
     display: none; }
   .segundoContainerIndex {
