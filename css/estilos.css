@@ -220,6 +220,7 @@
   margin-bottom: 40px;
   grid-column: 4/15;
   grid-row: 1/1;
+  margin-top:20px;
   text-align: center;
   font-family: 'Finger Paint', cursive;
   color: greenyellow; }
@@ -250,6 +251,7 @@
   .terceroContainerIndexAncho .tituloVideoTerceroContainerIndexContactoAncho {
     grid-column: 1/4;
     grid-row: 1/1;
+    margin-top:20px;
     text-align: center;
     font-family: 'Finger Paint', cursive;
     color: greenyellow; }
